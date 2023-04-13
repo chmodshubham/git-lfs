@@ -26,7 +26,7 @@ Run the following commands in the repository.
 ```
 git init
 git lfs install
-git lfs track "*.psd"
+git lfs track "largeFile"
 ```
 
 ```
@@ -67,5 +67,5 @@ Now run again the following commands:
 ```
 git add .
 git commit -m "second commit"
-git push -u origin main
+git push
 ```
