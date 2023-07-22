@@ -28,7 +28,7 @@ git init
 git lfs install
 
 # change largeFileName with the file name which exceeds 100Mb
-git lfs track largeFileName
+git lfs track <large-File-Name>
 ```
 
 `.gitattributes` file will be created with `largeFile` name inside it.
